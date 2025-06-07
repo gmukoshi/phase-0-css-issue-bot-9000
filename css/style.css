@@ -1,23 +1,24 @@
 body {
-  background pink;
+  background: pink;
 }
-
+/*styling h1*/
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em;
 }
-
+/*styling h2*/
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
-
+/*styling class selector on the list*/
 .completed {
-  font-family: 12px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/*styling the id selector*/
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc;
   text-decoration: underline;
 }
